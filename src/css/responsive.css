@@ -64,11 +64,19 @@ background-color: #1c0506;
     .container .mario{
         max-width:70% ;
     }
+
+    .modal .text-mario{
+        font-size: 20px;
+    }
 }
 
 @media(max-width:376px){
     .modal #video{
         width: 250px;
         height: 140px;
+    }
+
+    .modal .text-mario{
+        font-size: 15px;
     }
 }
