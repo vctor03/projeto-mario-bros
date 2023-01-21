@@ -1,6 +1,6 @@
 window.sr = ScrollReveal({reset:true});
 
-sr.reveal('.mario',{duration:5000})
+sr.reveal('.mario',{duration:3000})
 
 sr.reveal('.container',{duration:5000})
 
