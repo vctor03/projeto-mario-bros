@@ -1,82 +1,79 @@
-@media(max-width:1200px){
-    body{
-background-color: #1c0506;
-    }
+@media (max-width: 1200px) {
+  body {
+    background-color: #1c0506;
+  }
 
-    .fundo-video{
-        display: none;
-    }
+  .fundo-video {
+    display: none;
+  }
 
-    .container{
-        flex-wrap: wrap;
-        justify-content: center;
-        height: auto;
-        gap: 30px;
-        visibility: hidden;
-    }
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 30px;
+    visibility: hidden;
+  }
 
-    .container .mario{
-        padding-top: 20px;
-        max-width: 50%;
-        visibility: hidden;
-    }
+  .container .mario {
+    padding-top: 20px;
+    max-width: 50%;
+    visibility: hidden;
+  }
 
-    .container .informacoes{
-        display: flex;
-        align-items: center;
-        flex-direction:column ;
-    }
+  .container .informacoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    .container .descricao{
-        color: #ffffff;
-        text-align: center;
-    }
+  .container .descricao {
+    color: #ffffff;
+    text-align: center;
+  }
 
-    .container .botao-trailer{
-        background-color:  #ff0021;
-    }
-
-    
-
+  .container .botao-trailer {
+    background-color: #ff0021;
+  }
 }
 
-@media(max-width:500px){
-    .cabecalho{
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
+@media (max-width: 500px) {
+  .cabecalho {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 
-    .container .imagem-titulo{
-        max-width: 75%;
-    }
+  .container .imagem-titulo {
+    max-width: 75%;
+  }
 
-    .modal .fechar-modal{
-        width: 30px;
-        line-height: 30px;
-    }
+  .modal .fechar-modal {
+    width: 30px;
+    line-height: 30px;
+  }
 
-    .modal #video{
-        width: 300px;
-        height: 169px;
-    }
+  .modal #video {
+    width: 300px;
+    height: 169px;
+  }
 
-    .container .mario{
-        max-width:70% ;
-    }
+  .container .mario {
+    max-width: 70%;
+  }
 
-    .modal .text-mario{
-        font-size: 20px;
-    }
+  .modal .text-mario {
+    font-size: 20px;
+  }
 }
 
-@media(max-width:376px){
-    .modal #video{
-        width: 250px;
-        height: 140px;
-    }
+@media (max-width: 376px) {
+  .modal #video {
+    width: 250px;
+    height: 140px;
+  }
 
-    .modal .text-mario{
-        font-size: 15px;
-    }
+  .modal .text-mario {
+    font-size: 15px;
+  }
 }
